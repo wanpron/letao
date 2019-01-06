@@ -56,8 +56,8 @@ ul {
   text-align: center;
 }
 .lt_aside .user{
-  width: 100%;
-  margin-top: 30px;
+
+  padding-top: 30px;
   height: 180px;
 }
 .lt_aside .user img{
@@ -75,6 +75,7 @@ ul {
   color: #fff;
 }
 .lt_aside .nav a{
+  display: block;
   height: 40px;
   line-height: 40px;
   padding-left:40px;
@@ -99,7 +100,7 @@ ul {
   padding-left: 180px;
   padding-top: 50px;
   height: 2000px;
-  background-color: pink;
+  /* background-color: pink; */
   transition: all 1s;
 }
 .lt_main.hidemenu {
@@ -133,8 +134,19 @@ ul {
 .echarts_right {
   height: 400px;
   width: 48%;
-  background-color: skyblue;
+
 }
 .red {
   color: #A94442;
 }
+/* 用户管理 */
+.table.table-bordered th,
+.table.table-bordered td{
+text-align: center;
+/* 单元格内容垂直居中 */
+vertical-align: middle;
+
+}
+
+/* 一级分类 */
+
